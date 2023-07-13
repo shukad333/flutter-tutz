@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kb4/LocateMe.dart';
 import 'package:kb4/alert_demo.dart';
+import 'package:kb4/footer_example.dart';
 import 'package:kb4/list_view_ex.dart';
 import 'package:kb4/pull_refresh.dart';
 import 'package:kb4/second.dart';
@@ -113,7 +114,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>ListViewEx()));}, child: Text("List View")),
             ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>SliverApp()));}, child: Text("Sliver")),
             ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>Pullrefresh()));}, child: Text("Refresh")),
-            ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>AlertDialogueSample()));}, child: Text("Dialogue"))
+            ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>AlertDialogueSample()));}, child: Text("Dialogue")),
+            ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BottomNavigationBarExample()));}, child: Text("Footer Ex"))
           ],
 
         ),
